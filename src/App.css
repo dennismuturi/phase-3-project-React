@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=Oleo+Script+Swash+Caps&display=swap');
 * {
   padding: 0;
   margin: 0;
@@ -76,18 +77,21 @@ button {
 .category {
   box-shadow: rgb(43 52 69 / 10%) 0px 4px 16px;
   background-color: #fff;
-  width: 23%;
-  padding: 15px 0;
+  width: 25%;
+  padding: 20px 0;
   border-radius: 5px;
   margin-top: 5px;
 }
 .category img {
-  width: 60px;
-  height: 60px;
+  width: 70px;
+  height: 70px;
   margin-top: 10px;
   object-fit: contain;
 }
 .category span {
+  font-family: 'Oleo Script Swash Caps', cursive;
+  padding-top: 8px;
+  font-size: 1.5em;
   margin: 10px 20px;
   text-transform: capitalize;
 }
@@ -114,6 +118,10 @@ button {
   font-weight: bold;
   color: #fff;
   border-radius: 5px;
+  cursor: pointer;
+}
+.btn-primary:hover{
+  background-color: rgb(7, 128, 88);
 }
 .top {
   margin-top: 80px;
@@ -121,19 +129,5 @@ button {
 .mtop {
   margin-top: 40px;
 }
-.heading i {
-  color: #e94560;
-  margin: 10px;
-}
-.discount {
-  position: absolute;
-  top: 0;
-  left: 0;
-  background: #e94560;
-  padding: 3px 10px;
-  font-size: 12px;
-  border-radius: 50px;
-  color: #fff;
-  margin: 10px;
-}
+
 
